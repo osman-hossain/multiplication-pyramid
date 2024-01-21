@@ -64,4 +64,28 @@ int main()
 
 </br>
 
-continue
+//write a programme that print half pyramid with remainder
+
+```c
+#include<stdio.h>
+int main()
+{
+    int num,row,column;
+    printf("Enter the number : ");
+    scanf("%d",&num);
+
+    for(row=1; row<=num; row++)
+    {
+        for(column=1; column<=row; column++)
+        {
+            printf("%d",row%2);
+        }
+        printf("\n");
+    }
+    getchar();
+}
+```
+
+![remainder](./images/remainder.png)
+
+conti~~nue~~
