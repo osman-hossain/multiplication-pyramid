@@ -37,4 +37,4 @@ int main()
 
 <img src="./images/multiplicationpyramid.png" width="250" title="demo"/>
 
-continue
+continue...
