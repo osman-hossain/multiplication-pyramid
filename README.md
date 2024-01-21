@@ -137,3 +137,29 @@ int main()
 ```
 
 <img src="./images/star.png" width="500" title="Star"/>  
+
+// write a programme that print pyramid with alphabet  
+
+```c
+#include<stdio.h>
+int main()
+{
+    int num,row,column;
+    printf("Enter the number : ");
+    scanf("%d",&num);
+
+    for(row=1; row<=num; row++)
+    {
+        for(column=1; column<=row; column++)
+        {
+            printf("%c",column+64);
+        }
+        printf("\n");
+    }
+    getchar();
+}
+```  
+
+<img src="./images/alphabet.png" width="300" title="demo"/>  
+
+con_t_i~~nue~~
