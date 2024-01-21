@@ -37,4 +37,31 @@ int main()
 
 <img src="./images/multiplicationpyramid.png" width="250" title="demo"/>
 
-continue...
+//write a programme that print pyramid row number only
+
+```c
+#include<stdio.h>
+int main()
+{
+    while(1)
+    {
+        int num,row,column;
+        printf("Enter the number : ");
+        scanf("%d",&num);
+
+        for(row=1; row<=num; row++)
+        {
+            for(column=1; column<=row; column++)
+            {
+                printf("%d ",row);
+            }
+            printf("\n");
+        }
+    }
+}
+```  
+<img src="./images/row.png" widh="300" title="demo"/>
+
+</br>
+
+continue
