@@ -89,3 +89,29 @@ int main()
 ![remainder](./images/remainder.png)
 
 conti~~nue~~
+
+//write a programme that print pyramid pattern with column remainder
+
+```c
+#include<stdio.h>
+int main()
+{
+    int num,row,column;
+    printf("Enter the number : ");
+    scanf("%d",&num);
+
+    for(row=1; row<=num; row++)
+    {
+        for(column=1; column<=row; column++)
+        {
+            printf("%d",col%2);
+        }
+        printf("\n");
+    }
+    getchar();
+}
+```  
+
+<img src="./images/remaindercolumn.png" width="500" title="remaindercolumn" />  
+
+//write a programme that pring right half pyramid with star...
